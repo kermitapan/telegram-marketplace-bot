@@ -1,4 +1,4 @@
-# Telegram Marketplace Bot
+# Telegram Marketplace Listener
 
 A monitor for "free stuff" Telegram groups. It reads every new post, uses a
 vision-capable LLM to work out *what* the item actually is and *what it's worth*,
@@ -101,8 +101,8 @@ through prose.
 ## Setup
 
 ```bash
-git clone https://github.com/kermitapan/telegram-marketplace-bot.git
-cd telegram-marketplace-bot
+git clone https://github.com/kermitapan/telegram-marketplace-listener.git
+cd telegram-marketplace-listener
 pip install -r requirements.txt
 cp .env.example .env    # then fill it in
 python main.py
