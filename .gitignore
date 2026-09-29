@@ -1,0 +1,29 @@
+# Secrets — real API keys and phone number
+.env
+
+# Telegram user session (acts as a login token — never commit)
+*.session
+*.session-journal
+
+# Telegram chat export: real messages, names and photos of group members
+ChatExport_*/
+
+# Classifier output over real posts: contains names, addresses, timestamps
+export_results.jsonl
+
+# Local test fixtures (drop your own images here)
+test_images/*
+!test_images/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Local tooling / editor
+.claude/
+.idea/
+.vscode/
+.DS_Store
